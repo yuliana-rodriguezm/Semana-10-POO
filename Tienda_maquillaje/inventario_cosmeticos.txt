@@ -1,4 +1,0 @@
-1|Base|5|12.0|maquillaje
-2|Bloqueador solar|9|18.0|skincare
-3|Corrector liquido|8|9.0|maquillaje
-4|Crema antiarrugas|10|25.0|skincare
