@@ -1,5 +1,7 @@
 # SERVICIO: Inventario de Productos Cosméticos
 # Maneja CRUD y archivos
+# Permite agregar, listar, buscar, actualizar y eliminar productos del inventario
+# Además, guarda y carga el inventario desde un archivo de texto para persistencia de datos
 
 from modelos.producto_cosmetico import ProductoCosmetico
 
