@@ -14,7 +14,8 @@ class InventarioService:
 
     # ================= ARCHIVOS =================
 
-    # GUARDAR EN ARCHIVO
+    # Guarda los productos del inventario en un archivo de texto usando "with"
+    # With asegura que el archivo se cierre automáticamente
     def guardar_archivo(self):
         try:
             with open(self.archivo, "w", encoding="utf-8") as f:
@@ -27,7 +28,8 @@ class InventarioService:
         except PermissionError:
             print("ERROR: Sin permisos para escribir archivo")
 
-    # CARGAR ARCHIVO
+    # Carga los productos desde ek archivo al iniciar el programa
+    # Si el archivo no existe, se crea automáticamente
     def cargar_archivo(self):
         try:
             with open(self.archivo, "r", encoding="utf-8") as f:
