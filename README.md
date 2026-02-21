@@ -2,7 +2,7 @@
 
 Este proyecto es un sistema de gestión de inventarios desarrollado en Python, utilizando Programación Orientada a Objetos (POO) y una arquitectura modular con modelos y servicios.
 
-Permite gestionar productos cosméticos como maquillaje y skincare mediante un menú interactivo en consola y un archivo inventario_service.txt en el que se van almacenando los productos
+Permite gestionar productos cosméticos como maquillaje y skincare mediante un menú interactivo en consola y un archivo inventario.txt en el que se van almacenando los productos
 agregados en consola.
 
 ### Manejo de archivos en Python
